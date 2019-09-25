@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".InjuriesOccur"
+    android:background="@drawable/wert">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="사고 발생"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ImageView
+        android:id="@+id/buttonyes"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="500dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/oh" />
+
+    <ImageView
+        android:id="@+id/buttonno"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/xxxxxxx" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="400dp"
+        android:shadowColor="#464444"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:text="부상자가 있으십니까?"
+        android:textColor="#07090C"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="310dp"
+        android:scaleType="fitXY"
+        android:text="신고번호로 \n신고 접수됩니다."
+        android:textColor="#4B4B53"
+        android:textSize="26dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="310dp"
+        android:scaleType="fitXY"
+        android:text="보험사에게 \n신고 접수됩니다."
+        android:textColor="#4B4B53"
+        android:textSize="26dp"
+        android:textStyle="normal" />
+
+</android.support.design.widget.CoordinatorLayout>

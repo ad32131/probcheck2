@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".menu2"
+        android:id="@+id/scrollb"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/colorPrimary"
+                android:text="@string/title1"
+                android:textAlignment="center"
+                android:textColor="#F9F9F9"
+                android:textSize="40sp"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/subtitle1"
+                android:textAlignment="center"
+                android:textColor="#2D2F31"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/centerimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/centerimage1"
+
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/contents"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:text="@string/contents1"
+                android:textSize="30sp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+

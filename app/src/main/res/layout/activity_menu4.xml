@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu4"
+    android:background="@drawable/asdasasg">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#4D58BF"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:id="@+id/settel"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:layout_gravity="start"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="230dp"
+
+        />
+
+    <EditText
+        android:id="@+id/settel3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:layout_gravity="start"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="290dp"
+        />
+
+    <EditText
+        android:id="@+id/setcount"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="580dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/settel2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="435dp"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/settingtel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="220dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+
+    <ImageView
+        android:id="@+id/settingte3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="280dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+
+    <ImageView
+        android:id="@+id/settingcount"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="565dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <ImageView
+        android:id="@+id/settingtel2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="425dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+
+
+
+    <EditText
+        android:id="@+id/et_newData"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:layout_gravity="start"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="725dp"
+        />
+
+    <ImageView
+        android:id="@+id/bt_update"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="715dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+</android.support.design.widget.CoordinatorLayout>

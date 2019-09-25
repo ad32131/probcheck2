@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu1"
+
+>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="사고 발생 시 대처요령"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 01 즉시정차\n 사고발생 시 즉시 정차하세요.\n\n - 사고 발생 시 가능한 그 자리 그대로 사고차량을 정차시키거나 교차로 등 교통이 혼잡한 곳이면 인접한 안전장소로 이동합니다.\n\n 02 부상자 구호\n 부상자 발생 시,\n 부상자 구호가 최우선입니다.\n\n - 자신 및 상대방의 부상상태를 확인합니다.\n\n 03 사고신고\n 보험사와 경찰서에 연락하세요.\n\n 04 증거확보\n 정황증거를 확보하세요.\n\ 사진촬영과 목격자를 확인합니다."
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="26dp"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

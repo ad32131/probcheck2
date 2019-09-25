@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name" translatable="false">SMART</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="false">PUSH</string>
+    <string name="title_activity_notice">notice</string>
+    <string name="title_activity_injuredhandle">injuredhandle</string>
+    <string name="title_activity_accident_notice">accident_notice</string>
+    <string name="title_activity_injuries_occur">InjuriesOccur</string>
+    <string name="title_activity_noticemsg">noticemsg</string>
+    <string name="title_activity_menu1">menu1</string>
+    <string name="title_activity_menu2">menu2</string>
+    <string name="title_activity_menu3">menu3</string>
+    <string name="title_activity_menu4">menu4</string>
+
+    <string name="title1">1.차대차 과실비율\n(고속도로)</string>
+    <string name="title2">2.차대차 과실비율\n(고속도로)</string>
+    <string name="title3">3.차대차 과실비율\n(고속도로)</string>
+    <string name="title4">4.차대차 과실비율\n(고속도로)</string>
+    <string name="title5">5.차대차 과실비율\n(고속도로)</string>
+    <string name="title6">6.차대차 과실비율\n(고속도로)</string>
+    <string name="title7">7.차대차 과실비율\n(고속도로)</string>
+
+    <string name="subtitle1">501. 합류지점 사고 \n자동차A : 본선차\n자동차B : 합류차</string>
+    <string name="subtitle2">502. 차선감소지점 사고\n자동차A : 본선차\n자동차B : 합류차</string>
+    <string name="subtitle3">503. 진로변경 사고\n자동차A : 추월선 진행\n 자동차B : 주행선 진행중 추월선으로 진로변경</string>
+    <string name="subtitle4">504. 진로변경 사고\n자동차A : 후행 직진차\n 자동차B : 기타 진로변경</string>
+    <string name="subtitle5">505. 추돌사고\n자동차A, 자동차B\n차로 주정차중 추돌사고</string>
+    <string name="subtitle6">507. 추돌사고\n자동차A, 자동차B\n진행중 추돌사고</string>
+    <string name="subtitle7">509. 보행자 사고\n보행자A : 보행자\n자동차B : 직진</string>
+
+    <string name="contents1">고속도로의 합류지점에서, A자동차(본선차)는 본선 도로를 주행하고, B자동차(합류차)는 합류도로를 통해 고속도로로 진입하다가 충돌한 사고입니다. A자동차 경우 진입하려는 자동차를 잘 살펴야 할 의무가 있고, B자동차 경우 본선도로의 주행을 방해해서는 안 될 의무가 있습니다. 이를 종합적으로 고려하여 합류차인 B자동차의 기본과실을 70%로 산정하였습니다.</string>
+    <string name="contents2">고속도로의 차로가 감소하는 지점에서 A자동차(본선차)는 합류가 예상되는 차로를 주행하고, B자동차(합류차)는 감소되어 합류되는 차로를 주행하다가 충돌한 사고입니다. 이 경우 A, B 자동차 모두 차로 감소를 예상하여 안전운전을 해야 할 의무가 있으나, 합류차인 B자동차의 주의의무가 더 크다고 할 것입니다. 따라서 합류차인 B자동차의 기본과실을 60%로 산정하였습니다.</string>
+    <string name="contents3">고속도로에서 동일방향으로 진행하던 자동차간 사고로써, 주행선에서 선행하던 B자동차가 추월선으로 진로를 변경하고, 추월선에서 후행하는 A자동차는 직진하면서 발생한 사고입니다. B자동차의 경우 추월선으로 진로를 변경하면서 뒤에 따라오는 A자동차의 움직임을 잘 살 피지 못한 과실이 크다고 할 것입니다. 따라서 B자동차의 기본과실을 80%로 산정하였습니다.</string>
+    <string name="contents4">고속도로에서 동일방향으로 진행하던 자동차간 사고로써, 선행하던 B자동차가 진로를 변경하고, 후행하는 A자동차는 직진하면서 발생한 사고입니다. B자동차의 경우 진로를 변경할 때 뒤에 따라오는 A자동차의 움직임을 잘 살피지 못한 과실이 크다고 할 것입니다. 따라서 B자동차의 기본과실을 70%로 산정하였습니다.</string>
+    <string name="contents5">고속도로 주·정차중 사고로써, 주·정차된 B자동차를 A자동차가 추돌한 사고입니다. 일반도로와 달리 고속도로 등에서는 자동차가 주·정차중일 것을 예상하기 어려우므로, 추돌차인 A자동차의 기본과실을 60%로 산정하였습니다.</string>
+    <string name="contents6">고속도로에서 동일방향으로 진행하던 자동차간 사고로써, 선행하는 B자동차를 후행하던 A자동차가 추돌한 사고입니다. A자동차의 경우 전방을 잘 살피지 못한 과실과 안전거리를 확보하지 않은 과실 등 일방적인 과실이 있다고 할 것입니다. 따라서 A자동차의 기본과실을 100%로 산정하였습니다.</string>
+    <string name="contents7">고속도로 등에서, 보행자가 이유 없이 통행하거나 횡단하다가 자동차와 충돌한 사고입니다. 이 경우 보행자는 이유 없이 고속도로를 통행하거나 횡단한 과실이 매우 크다고 할 것입니다. 따라서 보행자의 기본과실을 80%로 산정하였습니다.</string>
+
+
+
+    <string name="todo">todo</string>
+    <string name="channel_name">push</string>
+    <string name="channel_description">push</string>
+    <string name="CHANNEL_ID">12345</string>
+
+
+</resources>
